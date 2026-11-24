@@ -8,6 +8,8 @@ Pure stdlib, no network, no secrets, no hard-coded output path.
 
 import os
 
+# The joke: the test "passes" only because it never actually runs
+# the code it claims to test, so approval is pure blind trust.
 LINE = (
     "LGTM. The test passes because it never actually runs the thing "
     "it tests, which feels right for this week."
